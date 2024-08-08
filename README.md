@@ -11,9 +11,9 @@
 4. How can the models be adapted to different geographic regions with varying flood patterns?
 
 ## **2. Literature Review**
-- **SSL Techniques:** Review existing SSL techniques such as Contrastive Learning, Predictive Coding, and Masked Image Modeling.
-- **Flood Prediction Models:** Survey traditional methods for flood risk and flood depth prediction, focusing on machine learning and remote sensing data.
-- **Multimodal Learning:** Investigate strategies for combining satellite imagery and reanalysis data, including early fusion, late fusion, and hybrid approaches.
+- **SSL Techniques:** I will review existing SSL techniques such as Contrastive Learning, Predictive Coding, and Masked Image Modeling.
+- **Flood Prediction Models:** I plan to survey traditional methods for flood risk and flood depth prediction, focusing on machine learning and remote sensing data.
+- **Multimodal Learning:** My goal is to investigate strategies for combining satellite imagery and reanalysis data, including early fusion, late fusion, and hybrid approaches.
 
 ## **3. Datasets**
 ### **Reanalysis Data:**
@@ -32,9 +32,9 @@
 
 ## **4. Self-Supervised Learning Approaches**
 ### **Pretext Tasks:**
-- **Temporal Consistency:** Predict future frames of satellite imagery or sequence of reanalysis data.
-- **Image Reconstruction:** Train an autoencoder to reconstruct satellite images or fill in missing reanalysis data.
-- **Contrastive Learning:** Use techniques like SimCLR or MoCo to distinguish between positive (similar) and negative (dissimilar) pairs.
+- **Temporal Consistency:** Predict future frames of satellite imagery or sequences of reanalysis data.
+- **Image Reconstruction:** I will train an autoencoder to reconstruct satellite images or fill in missing reanalysis data.
+- **Contrastive Learning:** I will use techniques like SimCLR or MoCo to distinguish between positive (similar) and negative (dissimilar) pairs.
 - **Masked Modeling:** Mask portions of satellite images or reanalysis grids and train the model to predict the missing parts.
 
 ### **Main Tasks:**
@@ -68,9 +68,9 @@
 - **Domain Adaptation:** Test the model on different geographic regions to assess its generalizability.
 
 ## **7. Expected Contributions**
-- **Novel SSL Techniques:** Development or adaptation of SSL techniques for flood prediction.
-- **Improved Flood Prediction Models:** Demonstrate how multimodal data and SSL can lead to more accurate and reliable flood predictions.
-- **Open-Source Tools:** Release datasets, code, and pre-trained models for community use.
+- **Novel SSL Techniques:** I aim to develop or adapt SSL techniques for flood prediction.
+- **Improved Flood Prediction Models:** My research will demonstrate how multimodal data and SSL can lead to more accurate and reliable flood predictions.
+- **Open-Source Tools:** I plan to release datasets, code, and pre-trained models for community use.
 
 ## **8. Timeline**
 ### **Year 1:**
@@ -93,4 +93,47 @@
 - **Computational Resources:** Plan for access to high-performance computing resources, possibly through cloud services or university facilities.
 - **Model Complexity:** Regularly review the model's complexity to avoid overfitting, especially when dealing with limited labeled data.
 
----
+## **Potential Collaborations**
+### **In South Africa:**
+
+1. **Wits Data Science Lab (WitsDSL) - University of the Witwatersrand**
+   - **Focus:** Machine Learning, Data Science, Artificial Intelligence.
+   - **Potential Collaboration:** Their work on machine learning and data science projects could align well with my research.
+
+2. **Centre for High-Performance Computing (CHPC) - CSIR**
+   - **Focus:** High-performance computing, big data, and machine learning applications.
+   - **Potential Collaboration:** Their resources and expertise in HPC could be invaluable for large-scale data processing and model training.
+
+3. **South African Environmental Observation Network (SAEON)**
+   - **Focus:** Environmental science, climate change, and earth observation.
+   - **Potential Collaboration:** Their focus on environmental monitoring could complement my flood prediction work.
+
+4. **University of Pretoria - Department of Computer Science**
+   - **Focus:** Machine Learning, Data Science, Remote Sensing.
+   - **Potential Collaboration:** Their expertise in machine learning and remote sensing can provide valuable insights and support.
+
+### **Outside Africa:**
+
+1. **Google Research - Zurich, Switzerland**
+   - **Focus:** Advanced AI research, particularly in Self-Supervised Learning and computer vision.
+   - **Potential Collaboration:** Collaborating with Google Research could provide access to cutting-edge research and large datasets.
+
+2. **Microsoft Research - Cambridge, UK**
+   - **Focus:** AI, machine learning, and environmental modeling.
+   - **Potential Collaboration:** They have ongoing research in AI for environmental sustainability, closely aligned with my goals.
+
+3. **European Centre for Medium-Range Weather Forecasts (ECMWF) - Reading, UK**
+   - **Focus:** Climate data, weather prediction models, and reanalysis datasets like ERA5.
+   - **Potential Collaboration:** They are a key provider of reanalysis data, central to my project.
+
+4. **Stanford AI Lab - Stanford University, USA**
+   - **Focus:** Artificial Intelligence, Machine Learning, and Computer Vision.
+   - **Potential Collaboration:** Stanford's AI Lab is a leader in SSL research and can offer valuable insights.
+
+5. **MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) - USA**
+   - **Focus:** AI, Machine Learning, Climate Modeling.
+   - **Potential Collaboration:** CSAIL's research programs in machine learning and its applications to climate science align with my work.
+
+6. **Max Planck Institute for Intelligent Systems - Germany**
+   - **Focus:** Self-Supervised Learning, Robotics, and AI.
+   - **Potential Collaboration:** Their SSL research can provide a strong foundation and practical insights for my project.
