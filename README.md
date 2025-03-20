@@ -2,7 +2,7 @@
 
 ## **1. Research Questions**
 ### **Primary Question:**
-- How can self-supervised learning techniques be used to predict flood risk and flood depth from multimodal datasets, including reanalysis data and satellite imagery?
+- How can self-supervised learning techniques be used risk assessment and forecasting from multimodal datasets, including reanalysis, remote-sensing data and satellite imagery?
 
 ### **Sub-questions:**
 1. What are the most effective pretext tasks in SSL for learning useful representations from reanalysis data and satellite images?
@@ -13,7 +13,7 @@
 ## **2. Literature Review**
 - **SSL Techniques:** I will review existing SSL techniques such as Contrastive Learning, Predictive Coding, and Masked Image Modeling.
 - **Flood Prediction Models:** I plan to survey traditional methods for flood risk and flood depth prediction, focusing on machine learning and remote sensing data.
-- **Multimodal Learning:** My goal is to investigate strategies for combining satellite imagery and reanalysis data, including early fusion, late fusion, and hybrid approaches.
+- **Multimodal Learning:** My goal is to investigate strategies for combining satellite imagery, remote-sensing and reanalysis data, including early fusion, late fusion, and hybrid approaches.
 
 ## **3. Datasets**
 ### **Reanalysis Data:**
@@ -38,8 +38,8 @@
 - **Masked Modeling:** Mask portions of satellite images or reanalysis grids and train the model to predict the missing parts.
 
 ### **Main Tasks:**
-- **Flood Risk Prediction:** Fine-tune the pre-trained model on labeled data to predict flood occurrence probabilities.
-- **Flood Depth Estimation:** Use the learned representations to predict continuous flood depth values.
+- **Flood Risk Assemment:** Fine-tune the pre-trained model on labeled data to predict flood occurrence probabilities.
+- **Flood Forecasting:** Use the learned representations to forecast continuous flood depth values.
 
 ## **5. Methodology**
 ### **Data Preprocessing:**
@@ -70,7 +70,7 @@
 ## **7. Expected Contributions**
 - **Novel SSL Techniques:** I aim to develop or adapt SSL techniques for flood prediction.
 - **Improved Flood Prediction Models:** My research will demonstrate how multimodal data and SSL can lead to more accurate and reliable flood predictions.
-- **Open-Source Tools:** I plan to release datasets, code, and pre-trained models for community use.
+- **Open-Source Tools:** I plan to release datasets, code, and foundational models for community use.
 
 ## **8. Timeline**
 ### **Year 1:**
