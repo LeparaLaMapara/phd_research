@@ -10,13 +10,13 @@ This project aims to develop a **probabilistic flood risk prediction model** tha
 
 To achieve this, we will leverage **self-supervised learning (SSL)** to extract meaningful flood-related features from unlabeled geospatial, climate, and hydrological data. Additionally, **probabilistic machine learning** methods will be used to model flood risk as a **distribution**, allowing us to express uncertainty in our predictions.  
 
-### **Classical Approaches to Flood Risk Prediction 🌊📊 (Explained Simply)**  
+### **Classical Approaches to Flood Risk Prediction **  
 
 Before we dive into advanced **machine learning** and **spatio-temporal models**, let’s first look at **classical approaches** that have been used for decades. These methods rely on **hydrology, statistics, and physics-based models** to predict flood risk.  
 
 ---
 
-## **1️⃣ Hydrological Models (Water Flow Simulations) 🌊🚰**
+## **1. Hydrological Models (Water Flow Simulations)**
 📌 **How it works:**  
 These models **simulate how water moves** across the landscape using mathematical equations. They take inputs like **rainfall, river levels, soil type, and terrain** to predict where flooding might happen.  
 
@@ -40,7 +40,7 @@ These models **simulate how water moves** across the landscape using mathematica
 
 ---
 
-## **2️⃣ Statistical Models (Historical Pattern Analysis) 📊📈**
+## **2️. Statistical Models (Historical Pattern Analysis) 📊📈**
 📌 **How it works:**  
 These models **analyze past flood data** and look for trends. Instead of simulating water movement, they use **historical flood events** to predict the likelihood of future floods.  
 
@@ -62,7 +62,7 @@ These models **analyze past flood data** and look for trends. Instead of simulat
 
 ---
 
-## **3️⃣ Geographic Information Systems (GIS) – Flood Mapping 🗺️**  
+## **3️ Geographic Information Systems (GIS) – Flood Mapping 🗺️**  
 📌 **How it works:**  
 GIS-based flood models use **spatial data** (maps, satellite images) to identify **flood-prone areas**. These models don’t "predict" floods but help visualize **where floods are most likely** based on terrain and past events.  
 
@@ -80,7 +80,7 @@ GIS-based flood models use **spatial data** (maps, satellite images) to identify
 
 ---
 
-## **4️⃣ Time-Series Forecasting Models (Classic Statistical Methods) ⏳📊**
+## **4️ Time-Series Forecasting Models (Classic Statistical Methods) ⏳📊**
 📌 **How it works:**  
 These models use **past flood and rainfall data** to predict **future flood risks** based on trends and patterns.  
 
@@ -152,7 +152,7 @@ Instead of predicting **one** flood outcome, stochastic models generate **multip
 
 ---
 
-### **6️⃣ Hydrodynamic Models (Advanced Water Flow Simulations) 🌊💨**  
+### **6️ Hydrodynamic Models (Advanced Water Flow Simulations) 🌊💨**  
 📌 **How it works:**  
 Hydrodynamic models take **water physics simulation to the next level**, incorporating **fluid dynamics** and **real-time environmental changes**.  
 
@@ -171,7 +171,7 @@ Hydrodynamic models take **water physics simulation to the next level**, incorpo
 
 ---
 
-### **7️⃣ Catastrophe Models (Cat Models) – Insurance & Financial Risk Modeling 💰🌊**  
+### **7️ Catastrophe Models (Cat Models) – Insurance & Financial Risk Modeling 💰🌊**  
 📌 **How it works:**  
 These models **combine physics-based simulations and historical disaster data** to estimate **financial losses** from floods.  
 
@@ -189,7 +189,7 @@ These models **combine physics-based simulations and historical disaster data** 
 
 ---
 
-### **8️⃣ Machine Learning-Enhanced Statistical Models 🤖📈 (Hybrid Approach)**  
+### **8️ Machine Learning-Enhanced Statistical Models 🤖📈 (Hybrid Approach)**  
 📌 **How it works:**  
 These methods **combine classical statistical techniques with early-stage ML algorithms**.  
 
